@@ -29,7 +29,7 @@ for IP in file:
     
         tn.write(b"config t\n")
         tn.write(b"clock timezone UTC -3 0\n")
-        tn.write(b"ntp server 146.83.101.50\n")
+        tn.write(b"ntp server ntp.shoa.cl\n")
         tn.write(b"exit\n")
         tn.write(b"exit\n")
     

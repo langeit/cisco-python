@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# @author [Mauricio Lange]
+# @email [mlangea@gestion.uta.cl]
 import telnetlib
 import getpass
 

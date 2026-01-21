@@ -15,7 +15,7 @@ import telnetlib
 
 TZ_OFFSET  = "UTC -3 0"
 HOSTS_FILE = "hosts"
-NTP_SERVER = "146.83.101.50"
+NTP_SERVER = "ntp.shoa.cl"
 
 def main():
     user = input("Username: ")
